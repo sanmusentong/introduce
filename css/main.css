@@ -1,0 +1,292 @@
+nav{
+	background: transparent;
+	height: 50px;
+}
+#banner{
+	background:transparent;
+	height: 650px;
+}
+header{
+	background: rgba(0,0,0,0.25);
+	
+}
+nav ul {
+	margin: 0;
+	list-style: none;
+	float:right;
+}
+nav ul li,nav .logo{
+	display: inline-block;
+	line-height: 50px;
+	margin-right:20px ;
+	
+}
+nav ul li a {
+	line-height: 50px;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	
+}
+nav ul li.logo{
+	float: left;
+}
+#banner .inner h1{
+	margin: 0;
+	padding: 10px;
+	color: white;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+#banner .inner{
+	margin: 0 auto;
+	max-width:250px;
+	text-align: center;
+	position: relative;
+	top: 160px;
+}
+
+#banner .inner .more{
+	position: relative;
+	top: 150px;
+	color: white;
+}
+#banner .inner .hanggao{
+	line-height: 35px;
+	color: white;
+}
+#banner button{
+	padding: 13px 30px;
+	margin-top: 50px;
+}
+.logo {
+
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-weight: 700;
+	padding-left: 10px;
+}
+.logo a{
+	color:white;
+	text-decoration: none;
+	}
+
+.first{
+	text-align: center;
+	background: rgba(1,255,130,1);
+	color: white;
+	padding: 100px;
+	min-height: 515px;
+}	
+.container{
+	max-width: 1080px;
+	margin: 0 auto;
+	
+}	
+	
+h2{
+	margin: 0;
+	font-size: 30px;
+	
+}
+h3{
+	font-size: 20px;
+}
+.hr{
+	width: 100%;
+	height: 2px;
+	margin: 20px auto;
+	
+}
+.container .hr{
+	background: white;
+	width: 60%;
+	
+}
+.icon-groups{
+	margin: 80px;
+	
+	
+}
+.icon-groups .icon{
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	transform: rotate(45deg);
+	margin: 20px;
+	background: rgba(0,0,0,0);
+}
+.sencond{
+	background: rgba(10, 8, 8, 0.89);
+	font-size: 0;
+}
+.part:nth-child(even){
+	background: rgba(255, 255, 255,0.04);
+}
+.part:after{
+	display: block;
+	clear:both;
+	content: '';
+}
+.part div{
+	float: left;
+}
+.sencond img{
+	width: 100%;
+	
+}
+.sencond .part .img-part{
+	width: 45%;
+	
+}
+.part .text-part{
+	width: 55%;
+	color: white;
+	position: relative;
+	top: 60px;
+	left: 50px;
+}
+.text-part h2{
+	font-size: 30px;
+	margin-bottom: 25px;
+	
+}
+
+.third{
+	background: rgba(100, 35, 134, 0.99);
+	color: white;
+}
+
+.third .heading{
+	padding-top: 80px;
+	text-align: center;
+}
+
+.card-group:after{
+	content: '';
+	display:block;
+	clear:both;
+}
+	
+
+.card{
+	float:left;
+	width:50%;
+	min-height: 260px;
+	padding: 50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: dashed 1px white;
+	
+}
+p{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.card:first-child{
+	background: rgba(0,0,0,0.04);
+}
+.card:nth-child(2){
+	background: rgba(0,0,0,0.08);
+}
+.card:nth-child(3){
+	background: rgba(0,0,0,0.12);
+}
+.card:nth-child(4){
+	background: rgba(0,0,0,0.16);
+}
+.card:nth-child(5){
+	background: rgba(0,0,0,0.20);
+}
+.card:nth-child(6){
+	background: rgba(0,0,0,0.24);
+}
+
+.foot{
+	background: #333;
+	display: block;
+	min-height: 180px;
+	text-align: center;
+	color: white;
+}
+.foot ul{
+	margin: 0 auto;
+	width: 1080px;
+	padding: 50px;
+}
+.share-way li{
+	display: inline-block;
+	padding: 10px;
+}
+.copy{
+	padding-top:0px;
+}
+.mainwrapper{
+	background: #444 url(../img/banner.jpg);
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-position: center,center;
+	background-size: cover;
+	overflow: hidden;
+}
+i{
+	color:white;
+}
+.mask{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.3);
+	display: none;
+}
+#sidebar{
+	width: 280px;
+	background: #333333;
+	color: white;
+	position:fixed;
+	top: 0px;
+	right: -280px;
+	bottom: 0px;
+	padding: 20px 0px;
+}
+#sidebar ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 40px;
+	display: inline-block;
+	width: 100%;
+}
+#sidebar ul a:hover{
+	
+	background: #444444;
+}
+button{
+	background: red;
+	color:#eee;
+	border: none;
+	padding: 10px;
+}
+#back-top{
+	
+	position: fixed;
+	right: 20px;
+	bottom: 30px;
+	background: transparent;
+	
+}
+
+
+
+
+
+
+
