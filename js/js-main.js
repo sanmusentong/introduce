@@ -42,14 +42,21 @@ $(document).ready(function(){
 		else{ backbutton.fadeOut();}
 		
 	})
-	//终于在一个博客上看到了，，，，只要让窗口一开始就触发 'scroll'，，这样就能接上对'scroll'定义的函数了，，666
+//	//终于在一个博客上看到了，，，，只要让窗口一开始就触发 'scroll'，，这样就能接上对'scroll'定义的函数了，，666
 	$(window).trigger('scroll');
-	//当点击底部标签时候，执行方法，其中offset()获取匹配元素在当前视口的相对偏移,返回的是一个对象，有两个属性top,left 
-	//animate,的第二个属性当然我们也可以设置'slow','normal'或'fast' 
-	$('#findme').click(function () { 
-			$('html,body').animate( 
-				{scrollTop:$('footer').offset().top}, 2000 ); 
-	})
+//	//当点击底部标签时候，执行方法，其中offset()获取匹配元素在当前视口的相对偏移,返回的是一个对象，有两个属性top,left 
+//	//animate,的第二个属性可以设置'slow','normal'或'fast' 
+//	$('#findme').click(function () { 
+//			$('html,body').animate( 
+//				{scrollTop:$('footer').offset().top}, 2000 ); 
+//	})
+	
+	
+	
+	
+	
+	
+	
 	
 	
 })

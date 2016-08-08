@@ -75,8 +75,8 @@ nav ul li.logo{
 	text-align: center;
 	background: rgba(1,255,130,1);
 	color: white;
-	padding: 100px;
-	min-height: 515px;
+	padding: 120px;
+	min-height: 700px;
 }	
 .container{
 	max-width: 1080px;
@@ -269,18 +269,14 @@ i{
 	
 	background: #444444;
 }
-button{
-	background: red;
-	color:#eee;
-	border: none;
-	padding: 10px;
-}
+
 #back-top{
 	
 	position: fixed;
 	right: 20px;
 	bottom: 30px;
 	background: transparent;
+	border: hidden;
 	
 }
 
@@ -295,5 +291,22 @@ button{
 .wechatImg img{
 	width: 120px;
 	height: 120px;
+}
+
+.modal-content {
+    background: url('../img/微信4.png') no-repeat;
+    background-size: 400px;
+    background-position: center center;
+    border-radius: 0;
+    text-align: center;
+    padding: 283px 99px 94px 99px;
+    position: relative;
+}
+#modaldialog {
+	width: 480px;
+}
+#thanks{
+	margin-top: 150px;
+
 }
 
