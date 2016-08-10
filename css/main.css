@@ -33,7 +33,7 @@ nav ul li.logo{
 }
 #banner .inner h1{
 	margin: 0;
-	padding: 10px;
+	padding: 0 ;
 	color: white;
 	border-top: 2px solid white;
 	border-bottom: 2px solid white;
@@ -59,6 +59,16 @@ nav ul li.logo{
 	padding: 13px 30px;
 	margin-top: 50px;
 }
+.more a{
+	position: absolute;
+	display: block;
+	width :50px;
+	height: 50px;
+	left: 40%;
+	border: solid white 1px;
+	padding-top: 10px;
+	border-radius: 50%;
+}
 .logo {
 
 	letter-spacing: 1px;
@@ -71,13 +81,14 @@ nav ul li.logo{
 	text-decoration: none;
 	}
 
-.first{
+#first{
 	text-align: center;
-	background: rgba(1,255,130,1);
+	background-image:linear-gradient(to bottom,#90ee67 0,rgba(1,255,130,1) 100%);
 	color: white;
 	padding: 120px;
 	min-height: 700px;
-}	
+}
+	
 .container{
 	max-width: 1080px;
 	margin: 0 auto;
@@ -103,12 +114,12 @@ h3{
 	width: 60%;
 	
 }
-.icon-groups{
+#icon-groups{
 	margin: 80px;
 	
 	
 }
-.icon-groups .icon{
+#icon-groups .icon{
 	display: inline-block;
 	height: 80px;
 	width: 80px;
@@ -116,7 +127,7 @@ h3{
 	margin: 20px;
 	background: rgba(0,0,0,0);
 }
-.sencond{
+#sencond{
 	background: rgba(10, 8, 8, 0.89);
 	font-size: 0;
 }
@@ -131,11 +142,11 @@ h3{
 .part div{
 	float: left;
 }
-.sencond img{
+#sencond img{
 	width: 100%;
 	
 }
-.sencond .part .img-part{
+#sencond .part .img-part{
 	width: 45%;
 	
 }
@@ -152,12 +163,12 @@ h3{
 	
 }
 
-.third{
+ #third {
 	background: rgba(100, 35, 134, 0.99);
 	color: white;
 }
 
-.third .heading{
+ #third .heading{
 	padding-top: 80px;
 	text-align: center;
 }
@@ -195,12 +206,6 @@ p{
 }
 .card:nth-child(4){
 	background: rgba(0,0,0,0.16);
-}
-.card:nth-child(5){
-	background: rgba(0,0,0,0.20);
-}
-.card:nth-child(6){
-	background: rgba(0,0,0,0.24);
 }
 
 .foot{
@@ -302,11 +307,44 @@ i{
     padding: 283px 99px 94px 99px;
     position: relative;
 }
-#modaldialog {
-	width: 480px;
+#modaldialog{
+	width: 470px;
+	
 }
 #thanks{
 	margin-top: 150px;
-
 }
+#sidespot{
+	
+	position: fixed;
+	left: 20px;
+	top: 40%;	
+}
+#sidespot ul  {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sidespot a{
+	text-decoration: none;
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	margin: 10px;
+	border: solid white 2px;
+	border-radius:50% ;
+}
+
+.spotcolor{
+	background: white;
+	
+}
+
+
+
+
+
+
+
 

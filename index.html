@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css"/>
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
 		<script src="js/jquery-3.0.0.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/js-main.js"></script>
@@ -25,31 +26,31 @@
 			</nav>
 			<div id="banner">
 				<div class="inner">
-					<h1>朱宗森</h1>
+					<h1 class="animated hinge">朱宗森</h1>
 					<p class="hanggao">生活是一种绵延不绝的渴望,渴望不断上升,变得更伟大而高贵。</p>
 					<button id="findme" class='btn btn-default btn-lg' data-toggle="modal" data-target="#modal1">关注我</button>
 					<div class="more">
-						<i class=" fa fa-angle-double-down fa-2x"></i>
+						<a href="#first"><i class=" fa fa-angle-double-down fa-2x"></i></a>
 					</div>
 				</div>
 				</div>
 		</header>
 		<div class="content"><!--内容-->
-			<section class="first">
+			<section id="first">
 				<div class="container">
 					<div>
-						<h2>简单的标题</h2>
+						<h2 id="first-h2">简单的标题</h2>
 						<div class="hr"></div>
 						<p>China could set up an air defense</p>
 					</div>
-					<div class="icon-groups">
+					<div id="icon-groups">
 						<span class="icon"><i class="fa fa-cab fa-2x"></i></span>
 						<span class="icon"><i class="fa fa-calendar fa-2x"></i></span>
 						<span class="icon"><i class="fa fa-calendar-minus-o fa-2x"></i></span>
 					</div>
 				</div>
 			</section>
-			<section class="sencond">
+			<section id="sencond" >
 				<div class="part">
 					<div class="img-part">
 						<img src="img/pic01.jpg"/>
@@ -68,6 +69,10 @@
 						<img src="img/pic02.jpg"/>
 					</div>
 				</div>
+				<!--
+                	作者：307078477@qq.com
+                	时间：2016-08-10
+                	描述：删了一个part
 				<div class="part">
 					<div class="img-part">
 						<img src="img/pic03.jpg"/>
@@ -77,8 +82,9 @@
 						<p>asdfsdfoiwnfnklxlkjzlkv</p>
 					</div>
 				</div>
+				-->
 			</section>
-			<section class="third">
+			<section id="third" >
 				<div class="container">
 					<div class="heading">
 					<h2>标题</h2>	
@@ -106,6 +112,15 @@
 					</div>
 				</div>
 				</div>
+				<!--
+                	作者：307078477@qq.com
+                	时间：2016-08-09
+                	描述：css3 box-sizing属性
+					box-sizing属性可以为三个值之一：content-box（default），border-box，padding-box。
+					content-box，border和padding不计算入width之内
+					padding-box，padding计算入width内
+					border-box，border和padding计算入width之内，其实就是怪异模式了~
+                -->
 			</section>
 		</div> <!--内容-->
 		<footer class="foot"><!--页脚-->
@@ -148,6 +163,15 @@
   </div>
 </div>
 <!-- 模态框（Modal） -->
+<!-- 导航点  四个圆点-->
+	<div id="sidespot">
+		<ul>
+			<li><a href="#" 		id="spot1"></a></li>
+			<li><a href="#first"	id="spot2"></a></li>
+			<li><a href="#sencond"	id="spot3"></a></li>
+			<li><a href="#third"	id="spot4"></a></li>
+		</ul>
+	</div>
 	</body>
 	 
 </html>

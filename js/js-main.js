@@ -50,15 +50,30 @@ $(document).ready(function(){
 //			$('html,body').animate( 
 //				{scrollTop:$('footer').offset().top}, 2000 ); 
 //	})
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	$(window).on('scroll',function(){
+		if($(window).scrollTop()<$(window).height()){
+			$('#spot1').addClass('spotcolor');
+			$('#spot2').removeClass('spotcolor');
+		}
+		if($(window).scrollTop()>$(window).height()){
+			$('#spot2').addClass('spotcolor');
+			$('#first').addClass('animated pulse');
+			$('#spot1').removeClass('spotcolor');
+			$('#spot3').removeClass('spotcolor');
+		}
+		if($(window).scrollTop()>$(window).height()*2){
+			$('#spot3').addClass('spotcolor');
+			$('#spot2').removeClass('spotcolor');
+			$('#spot4').removeClass('spotcolor');
+		}
+		if($(window).scrollTop()>$(window).height()*3){
+			$('#spot4').addClass('spotcolor');
+			$('#spot2').removeClass('spotcolor');
+			$('#spot3').removeClass('spotcolor');
+		}
+		
+	})
+
 })
 
 
